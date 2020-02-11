@@ -25,4 +25,3 @@ char *my_catslash(char *dest, char const *src)
     res[y] = '\0';
     return (res);
 }
- 
