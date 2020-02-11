@@ -9,10 +9,6 @@
 
 int my_putstr(char const *str)
 {
-    int count = 0;
-
-    for (int i = 0; str[i]; i++)
-        count++;
-    write(1, str, count);
+    write(1, str, my_strlen(src));
     return (0);
 }
