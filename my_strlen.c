@@ -2,7 +2,7 @@
 ** EPITECH PROJECT, 2019
 ** memeknaci libmy
 ** File description:
-** calcul the lenght of the string
+** calcul the lenght of a string
 */
 
 #include <stddef.h>
