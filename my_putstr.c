@@ -2,7 +2,7 @@
 ** EPITECH PROJECT, 2019
 ** memeknaci libmy
 ** File description:
-** print a full string
+** print a string
 */
 
 #include <unistd.h>
