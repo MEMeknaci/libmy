@@ -1,4 +1,4 @@
-c/*
+/*
 ** EPITECH PROJECT, 2019
 ** memeknaci libmy
 ** File description:
