@@ -5,7 +5,7 @@
 ** my_strlowcase
 */
 
-char *my_strupcase(char *str)
+static char *my_strupcase(char *str)
 {
     for (int t = 0; str[t]; t++) {
         if (str[t] >= 'a' && str[t] <= 'z' )
@@ -14,7 +14,7 @@ char *my_strupcase(char *str)
     return (str);
 }
 
-char *my_strlowcase(char *str)
+static char *my_strlowcase(char *str)
 {
     for (int t = 0; str[t]; t++) {
         if (str[t] >= 'A' && str[t] <= 'Z' )
