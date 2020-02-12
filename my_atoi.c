@@ -1,5 +1,5 @@
 /*
-65;5604;1c** EPITECH PROJECT, 2019
+** EPITECH PROJECT, 2019
 ** memeknaci libmy
 ** File description:
 ** get a number from a string
