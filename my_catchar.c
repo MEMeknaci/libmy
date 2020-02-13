@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <stddef.h>
 
-char *my_catslash(char *dest, char const *src)
+char *my_catchar(char *dest, char const *src, char c)
 {
     int dest_len = my_strlen(dest);
     int src_len = my_strlen(src);
@@ -19,7 +19,7 @@ char *my_catslash(char *dest, char const *src)
         return (NULL);
     for (;y != dest_len; y++)
         res[y] = dest[y];
-    res[y++] = '/';
+    res[y++] = c;
     for (int a = 0; y != src_len + dest_len + 1; y++, a++)
         res[y] = src[a];
     res[y] = '\0';
